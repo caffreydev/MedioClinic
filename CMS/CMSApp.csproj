@@ -929,6 +929,7 @@
     <None Include="App_Themes\Default\CMSModules\cms.emailmarketing\cms.emailmarketing.newsletter.report.less" />
     <None Include="App_Themes\Default\CMSModules\cms.membership.less" />
     <None Include="App_Themes\Default\CMSModules\cms.objecttypegraph.less" />
+    <Content Include="ConnectionStrings.config" />
     <None Include="Old_App_WebReferences\WS\WebService.discomap" />
     <None Include="Old_App_WebReferences\WS\WebService.wsdl" />
     <Content Include="Admin\Default.aspx" />
@@ -14367,6 +14368,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="CMSModules\EmailEngine\FormControls\" />
+    <Folder Include="CMSScripts\Custom\" />
   </ItemGroup>
   <ItemGroup>
     <WebReferences Include="Web References\" />
@@ -14377,11 +14380,7 @@
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="CMSModules\EmailEngine\FormControls\" />
-    <Folder Include="CMSScripts\Custom\" />
-    <Folder Include="CMSScripts\WebComponents\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="CMSScripts\WebComponents\kentico-abtest-variant-listing_35.entry.js" />
     <Content Include="CMSScripts\WebComponents\kentico-abtest-variant-listing_35.system.entry.js" />

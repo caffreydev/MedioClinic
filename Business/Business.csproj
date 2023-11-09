@@ -1,15 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <Authors>Jan Lenoch</Authors>
-    <Company>Kentico Software</Company>
+    <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <EnableNETAnalyzers>true</EnableNETAnalyzers>
   </PropertyGroup>
-  <ItemGroup>
-    <FrameworkReference Include="Microsoft.AspNetCore.App" PrivateAssets="all" />
-  </ItemGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\XperienceAdapter\XperienceAdapter.csproj" />
   </ItemGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" PrivateAssets="all" />
+	</ItemGroup>
+
 </Project>
